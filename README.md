@@ -53,12 +53,7 @@ The project integrates multiple official data sources to build a comprehensive d
 - Usage: Control variables for regression analysis
 
 ### 6. Feature Engineering
-New derived variables have been created to capture aspects not directly available in the original datasets:
-- Proportions of territory allocated to renewable energy
-- Plant density by type
-- Spatial concentration indices
-- Capacity-to-territorial area ratios
-
+New derived variables have been created to capture aspects not directly available in the original datasets (for isntance: proportions of territory allocated to renewable energy)
 
 DISCLAIMER: The most updated and comprehensive data I found were those referring to the year 2021. While some datasets extend to 2024 (land use indicators), the core renewable energy plant data represents the 2021 snapshot, which serves as the primary reference year for this analysis.
 
