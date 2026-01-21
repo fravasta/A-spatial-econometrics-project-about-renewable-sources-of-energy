@@ -75,7 +75,7 @@ load("queen_matrix.rda") #queen_neighbors_clean, queen_hybrid_weights_clean (wei
 # ----------------------------------------
 plot_queen_region <- function(region_name){
   
-  regione <- dataset %>% filter(Nome_Regione == region_name)
+  regione <- dataset_solar_energy %>% filter(Nome_Regione == region_name) #or any other file with geometry
   regione$ID <- 1:nrow(regione)
   
   # Crea la Queen contiguity solo sulla regione filtrata
