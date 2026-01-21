@@ -66,11 +66,3 @@ The richness of collected variables allows for:
 1. **Spatial regression analysis** with comprehensive set of explanatory variables
 2. **Thematic cartography** for visualization of territorial patterns
 3. **Comparative descriptive statistics** across Italian regions
-
-## Project Status
-
-This project is currently under development
-
----
-
-*Work in progress - Last updated: 3rd 2025*
