@@ -15,7 +15,6 @@ library(spatialreg)
 library(dplyr)
 library(stargazer)
 library(spgwr)
-library(GWmodel)
 library(plotly)
 library(scales)
 library(car)
@@ -28,8 +27,6 @@ library(leaflet)
 # ---------------------------
 
 
-load("dataset_finale.rda") #dataset
-load("comuni.rda") #com
 load("regioni.rda") #reg
 load("dati_regioni_impianti_dash.rda") #full dataset aggregagated by region
 load("dati_comuni_dash.rda") #full dataset with variables of interest
@@ -42,10 +39,11 @@ load("dataset_wind_energy.rda")
 # ---------------------------
 
 
-load("aree_protette_2021_layer_reg.rda")
-load("aree_protette_2021_layer_com.rda")
-load("corine_sf_clean.rda")
-
+#load("aree_protette_2021_layer_reg.rda")
+#load("aree_protette_2021_layer_com.rda")
+#load("corine_sf_clean.rda")
+#load("dataset_finale.rda") #dataset
+#load("comuni.rda") #com
 
 
 # ---------------------------
